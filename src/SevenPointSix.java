@@ -2,8 +2,10 @@
  * Created by Administrator on 2017/8/2.
  */
 public class SevenPointSix {
+    private static final int COUNT = 50;
     public static void main(String[] args) {
-        int[] prime = new int[50];
+
+        int[] prime = new int[COUNT];
         prime[0] = 2;
         int i = 1;
         int n = 3;
